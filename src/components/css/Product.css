@@ -81,3 +81,15 @@ input:focus {
   font-size: 36px;
   margin-top: 30px;
 }
+
+@media only screen and (max-width: 500px) {
+  .products {
+    margin-left: -50px !important;
+  }
+}
+
+@media only screen and (max-width: 399px) {
+  .products {
+    margin-left: -70px !important;
+  }
+}
