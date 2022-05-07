@@ -1,7 +1,11 @@
 .products {
   width: 100%;
   /* border: 1px solid red; */
-  padding-left: 0;
+  padding-left: 0 !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
 }
 
 .filter {
